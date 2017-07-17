@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Img Gallery</title>
+<!-- CSS -->
+  <!-- bs-cdn-css -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- LightBox CSS -->
+  <link rel="stylesheet" href="css/lightbox.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/app.css">
+
+<!-- JavaScript -->
+
+  <!-- jQuery Google CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- bs-cdn-js -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- LightBox JS -->
+  <script src="js/lightbox.js"></script>
+
+
+
+
+
+  <!-- Custom JS -->
+  <script src="js/custom.js"></script>
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+      <button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" type="button">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Page 1-1</a></li>
+            <li><a href="#">Page 1-2</a></li>
+            <li><a href="#">Page 1-3</a></li>
+          </ul>
+        </li>
+        <li ><a href="index.html">3 column</a></li>
+        <li class="active"><a href="index-4-column.html">4 column</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user">&nbsp;Sign&nbsp;Up</span></a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in">&nbsp;Log&nbsp;In</span></a></li>
+      </ul>
+      <form action="" class="navbar-form navbar-right">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="search">
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+    </div>
+  </div>
+</nav>
+<div class="container">
+
+
+    <section>
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2500">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="http://lorempixel.com/500/300/people/1" class="img-thumbnail" alt="people-1">
+            </div>
+
+            <div class="item">
+              <img src="http://lorempixel.com/500/300/city/2" class="img-thumbnail" alt="city-2">
+            </div>
+
+            <div class="item">
+              <img src="http://lorempixel.com/500/300/people/3" class="img-thumbnail" alt="people-3">
+            </div>
+
+            <div class="item">
+              <img src="http://lorempixel.com/500/300/animals/1" class="img-thumbnail" alt="animals-1">
+            </div>
+
+            <div class="item">
+              <img src="http://lorempixel.com/500/300/animals/2" class="img-thumbnail" alt="animals-2">
+            </div>
+
+            <div class="item">
+              <img src="http://lorempixel.com/500/300/nightlife/1" class="img-thumbnail" alt="nightlife-1">
+            </div>
+
+            <div class="item">
+              <img src="http://lorempixel.com/500/300/nature/1" class="img-thumbnail" alt="nature-1">
+            </div>
+
+            <div class="item">
+              <img src="http://lorempixel.com/500/300/food/2" class="img-thumbnail" alt="food-2">
+            </div>
+
+            <div class="item">
+              <img src="http://lorempixel.com/500/300/sports/3" class="img-thumbnail" alt="sports-3">
+            </div>
+
+            <div class="item">
+              <img src="http://lorempixel.com/500/300/nature/3" class="img-thumbnail" alt="nature-3">
+            </div>
+
+            <div class="item">
+              <img src="http://lorempixel.com/500/300/food/3" class="img-thumbnail" alt="food-3">
+            </div>
+
+            <div class="item">
+              <img src="http://lorempixel.com/500/300/animals/1" class="img-thumbnail" alt="city-1">
+            </div>
+
+
+
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+      <li role="presentation" class="active"><a href="#all" aria-controls="all" role="tab" data-toggle="tab">All</a></li>
+      <li role="presentation"><a href="#c-one" aria-controls="c-one" role="tab" data-toggle="tab">Category One</a></li>
+      <li role="presentation"><a href="#c-two" aria-controls="c-two" role="tab" data-toggle="tab">Category Two</a></li>
+    </ul>
+
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane active" id="all">
+        <!-- images -->
+        <section>
+          <div class="row">
+            <div class="col-md-3">
+              <a href="http://lorempixel.com/480/240/people/1" data-lightbox="gallery" data-title="Sample-1"><img src="http://lorempixel.com/480/240/people/1" class="img-thumbnail" alt="people-1"></a>
+            </div>
+
+            <div class="col-md-3">
+              <a href="http://lorempixel.com/480/240/city/2" data-lightbox="gallery" data-title="Sample-1"><img src="http://lorempixel.com/480/240/city/2" class="img-thumbnail" alt="people-1"></a>
+            </div>
+
+            <div class="col-md-3">
+              <a href="http://lorempixel.com/480/240/people/3" data-lightbox="gallery" data-title="Sample-1"><img src="http://lorempixel.com/480/240/people/3" class="img-thumbnail" alt="people-3"></a>
+            </div>
+
+            <div class="col-md-3">
+                <a href="http://lorempixel.com/480/240/animals/1" data-lightbox="gallery" data-title="Sample-1"><img src="http://lorempixel.com/480/240/animals/1" class="img-thumbnail" alt="people-3"></a>
+            </div>
+
+          </div>
+          <div class="row">
+
+
+            <div class="col-md-3">
+                <a href="http://lorempixel.com/480/240/animals/2" data-lightbox="gallery" data-title="Sample-1"><img src="http://lorempixel.com/480/240/animals/2" class="img-thumbnail" alt="animals-2"></a>
+            </div>
+
+            <div class="col-md-3">
+                <a href="http://lorempixel.com/480/240/city/3" data-lightbox="gallery" data-title="Sample-1"><img src="http://lorempixel.com/480/240/city/3" class="img-thumbnail" alt="city-3"></a>
+            </div>
+
+            <div class="col-md-3">
+                <a href="http://lorempixel.com/480/240/animals/4" data-lightbox="gallery" data-title="Sample-1"><img src="http://lorempixel.com/480/240/animals/4" class="img-thumbnail" alt="animals-4"></a>
+            </div>
+
+            <div class="col-md-3">
+              <a href="http://lorempixel.com/480/240/food/3" data-lightbox="gallery" data-title="Sample-1"><img src="http://lorempixel.com/480/240/food/3" class="img-thumbnail" alt="food-3"></a>
+            </div>
+
+          </div>
+
+          <a role="button" class="btn btn-link" data-toggle="collapse" data-target="#see-more">See more...</a>
+            <div id="see-more" class="collapse">
+              <div class="row">
+
+                <div class="col-md-3">
+                  <a href="http://lorempixel.com/480/240/nature/3" data-lightbox="gallery" data-title="Sample-1"><img src="http://lorempixel.com/480/240/nature/3" class="img-thumbnail" alt="nature-3"></a>
+                </div>
+                
+              <div class="col-md-3">
+                  <a href="http://lorempixel.com/480/240/abstract/1" data-lightbox="gallery" data-title="Sample-1"><img src="http://lorempixel.com/480/240/abstract/1" class="img-thumbnail" alt="abstract-1"></a>
+                </div>
+
+                <div class="col-md-3">
+                  <a href="http://lorempixel.com/480/240/technics/2" data-lightbox="gallery" data-title="technics-2"><img src="http://lorempixel.com/480/240/technics/2" class="img-thumbnail" alt="technics-2"></a>
+                </div>
+
+                <div class="col-md-3">
+                  <a href="http://lorempixel.com/480/240/technics/3" data-lightbox="gallery" data-title="technics-3"><img src="http://lorempixel.com/480/240/technics/3" class="img-thumbnail" alt="technics-3"></a>
+                </div>
+            </div>
+        </section>
+        <!-- ./images -->
+      </div>
+      <div role="tabpanel" class="tab-pane" id="c-one">
+        <section>
+          <div class="row">
+            <div class="col-md-3">
+              <a href="#"><img src="http://lorempixel.com/500/300/people/1" class="img-thumbnail" alt="people-1"></a>
+              <div class="title">Samle Img 1</div>
+            </div>
+
+            <div class="col-md-3">
+              <a href="#"><img src="http://lorempixel.com/500/300/city/2" class="img-thumbnail" alt="city-2"></a>
+              <div class="title">Samle Img 2</div>
+            </div>
+
+            <div class="col-md-3">
+              <a href="#"><img src="http://lorempixel.com/500/300/people/3" class="img-thumbnail" alt="people-3"></a>
+              <div class="title">Samle Img 1</div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="c-two">
+        <section>
+          <div class="row">
+            <div class="col-md-3">
+              <a href="#"><img src="http://lorempixel.com/500/300/animals/1" class="img-thumbnail" alt="animals-1"></a>
+              <div class="title">Samle Img 4</div>
+            </div>
+
+            <div class="col-md-3">
+              <a href="#"><img src="http://lorempixel.com/500/300/animals/2" class="img-thumbnail" alt="animals-2"></a>
+              <div class="title">Samle Img 5</div>
+            </div>
+
+            <div class="col-md-3">
+              <a href="#"><img src="http://lorempixel.com/500/300/city/3" class="img-thumbnail" alt="city-3"></a>
+              <div class="title">Samle Img 1</div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+
+
+
+
+
+</div>
+
+</body>
+</html>
